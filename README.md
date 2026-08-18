@@ -11,7 +11,7 @@ pnpm install
 pnpm dev
 ```
 
-Content is MDX under `content/docs/`. The site is served at `/` (not `/docs`).
+Content is MDX under `content/docs/`. The site is served at `/`.
 
 ## Deploy
 
@@ -21,6 +21,6 @@ NEXT_PUBLIC_DOCS_URL=https://dripnex-docs.pages.dev \
 pnpm deploy
 ```
 
-Production Pages project: `dripnex-docs` → `https://dripnex-docs.pages.dev`.
+Pages project: `dripnex-docs` → https://dripnex-docs.pages.dev
 
-When DNS is ready, CNAME `docs` → `dripnex-docs.pages.dev` (proxied).
+When DNS is ready, CNAME `docs` → `dripnex-docs.pages.dev` (proxied). The custom domain is already attached on the Pages project.
